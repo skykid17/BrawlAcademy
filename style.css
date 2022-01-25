@@ -1,0 +1,97 @@
+body{
+  background: url(background.jpg);
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+  text-align: center;
+}
+
+h1{
+  color: navy;
+  font-size: 40px;
+  background: cyan;
+  padding: 20px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.menu {
+  padding: 10px;
+  background-color: deepskyblue;
+  font-size: 20px;
+  text-align: center;;
+}
+
+.menu a {
+  background-color: navy;
+  color: white;
+  border-radius:12px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px 0;
+  backface-visibility: 0.25;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: Maroon;
+}
+
+#icon{
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.introduction p{
+  margin-bottom: 20px;
+}
+
+h2, h3, p{
+  font-family: Verdana;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  margin: auto;
+}
+.appstores {
+  max-width: 100%;
+  max-height: auto;
+  margin: 20px 0;
+}
+
+.appstores a {
+  margin:20px;
+  padding: 0 0 20px;
+  border-radius: 8px;
+}
+.contact {
+  padding: 10px;
+  background-color: deepskyblue;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 20px;
+  font-weight: bold;
+}
+.contact a {
+  font-size: 12px;
+  font-color: white;
+  font family: 'Verdana', sans-serif;
+  background-color: navy;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+.contact a:hover {
+  background-color: white;
+  color: Maroon;
+}
+
+footer {
+  margin: 20px;
+}
